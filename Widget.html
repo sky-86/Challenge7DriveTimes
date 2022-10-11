@@ -1,0 +1,31 @@
+<div>
+  <h1>${nls.inputTimes}</h1>
+
+  <div class="inputContainer">
+
+    <input class="driveInput" type="number" min="0" max="15" data-dojo-type="dijit/form/NumberSpinner"
+      id="integerspinner1" value="0" name="driveTimeInput1"
+      data-dojo-props="smallDelta:1, constraints:{min:0,max:15,places:0}" data-dojo-attach-point="driveTimeInput1" />
+
+    <input class="driveInput" data-dojo-type="dijit/form/NumberSpinner" id="integerspinner2" value="0"
+      name="driveTimeInput2" data-dojo-props="smallDelta:1, constraints:{min:0,max:15,places:0}"
+      data-dojo-attach-point="driveTimeInput2" />
+
+    <input class="driveInput" data-dojo-type="dijit/form/NumberSpinner" id="integerspinner3" value="0"
+      name="driveTimeInput3" data-dojo-props="smallDelta:1, constraints:{min:0,max:15,places:0}"
+      data-dojo-attach-point="driveTimeInput3" />
+
+  </div>
+
+  <div class="hintDiv">${nls.hint}</div>
+
+  <div data-dojo-attach-point="loadingDiv" hidden>
+    <div id="loadingOverlay" class="loadingOverlay pageOverlay"></div>
+  </div>
+
+  <div hidden class="resetDiv" data-dojo-attach-point="resetDiv">
+    <button id="resetBtn" data-dojo-type="dijit/form/Button" data-dojo-attach-point="resetBtn">${nls.reset}</button>
+  </div>
+
+
+</div>

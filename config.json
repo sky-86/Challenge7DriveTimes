@@ -1,0 +1,41 @@
+{
+  "serviceAreaUrl": "https://route-api.arcgis.com/arcgis/rest/services/World/ServiceAreas/NAServer/ServiceArea_World/solveServiceArea",
+
+  "poly1BodyColor": {
+    "r": 255,
+    "g": 10,
+    "b": 10,
+    "a": 0.25
+  },
+  "poly2BodyColor": {
+    "r": 0,
+    "g": 62,
+    "b": 134,
+    "a": 0.25
+  }, 
+  "poly3BodyColor": {
+    "r": 204,
+    "g": 136,
+    "b": 0,
+    "a": 0.25
+  },
+
+  "poly1BorderColor":{
+    "r": 204,
+    "g": 0,
+    "b": 0,
+    "a": 1
+  }, 
+  "poly2BorderColor":{
+    "r": 0,
+    "g": 90,
+    "b": 204,
+    "a": 1
+  }, 
+  "poly3BorderColor":{
+    "r": 127,
+    "g": 255,
+    "b": 0,
+    "a": 1
+  }
+}
